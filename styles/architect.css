@@ -54,11 +54,30 @@ header{
 .brand-title{
   font-weight:700; font-size: 4rem;
 }
-.banner{
-  margin-top: 50px; margin-bottom: 19px;
+ .banner{
+  margin-top: 50px; margin-bottom: 19px; 
+} 
+.banner img{
+  width: 100%;
 }
 
 
+
+
+/* responsive header for small device */
+ @media screen and (max-width:576px){
+  .nav-items{
+    flex-direction: column; gap: 10px;
+  }
+  .brand{
+    padding-left: 10px; padding-right: 10px;
+  }
+  .brand-section{
+    flex-direction: column;
+  }
+  
+}
+ 
 
 
 
